@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>KmlFile</name>
+	<Style id="redLine">
+		<LineStyle>
+			<color>fff9fffb</color>
+			<width>30</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>a00600f9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="redLine0">
+		<LineStyle>
+			<color>fff9fffb</color>
+			<width>30</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>a00600f9</color>
+		</PolyStyle>
+	</Style>
+	<Style id="redLine1">
+		<LineStyle>
+			<color>fff9fffb</color>
+			<width>30</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>a0000022</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="redLine2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#redLine1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#redLine3</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="redLine3">
+		<LineStyle>
+			<color>fff9fffb</color>
+			<width>30</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>a0000022</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="redLine4">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#redLine0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#redLine</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>folder-test</name>
+		<open>1</open>
+		<Placemark>
+			<name>first</name>
+			<styleUrl>#redLine4</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-67.52658251164898,35.01926269055949,0 -66.66730251910286,32.07109418829805,0 -64.65802416710586,32.92252534613049,0 -67.52658251164898,35.01926269055949,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+		<Placemark>
+			<name>second</name>
+			<styleUrl>#redLine2</styleUrl>
+			<Polygon>
+				<tessellate>1</tessellate>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							-70.06309598018362,31.80690602833547,0 -64.19037603008493,29.79640202119423,0 -62.5415230803271,34.97245477653363,0 -70.06309598018362,31.80690602833547,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
