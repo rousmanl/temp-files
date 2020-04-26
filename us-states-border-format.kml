@@ -5,7 +5,7 @@
 	<Style id="states">
 		<LineStyle>
 			<color>fff9fffb</color>
-			<width>1.0</width>
+			<width>4.0</width>
 		</LineStyle>
 		<PolyStyle>
 			<color>a00600f9</color>
